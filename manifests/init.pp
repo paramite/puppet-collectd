@@ -6,6 +6,7 @@ class collectd (
   Boolean $fqdnlookup                                  = $collectd::params::fqdnlookup,
   Boolean $has_wordexp                                 = $collectd::params::has_wordexp,
   Array $include                                       = $collectd::params::include,
+  Boolean $autoload_plugin                             = $collectd::params::autoload_plugin,
   Integer[1] $interval                                 = $collectd::params::interval,
   Boolean $internal_stats                              = $collectd::params::internal_stats,
   Boolean $manage_package                              = $collectd::params::manage_package,

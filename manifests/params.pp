@@ -6,6 +6,7 @@ class collectd::params {
   $conf_content              = undef
   $config_mode               = '0640'
   $config_owner              = 'root'
+  $autoload_plugin           = false
   $interval                  = 10
   $include                   = []
   $internal_stats            = false
